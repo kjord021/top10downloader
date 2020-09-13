@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 reader.close();
 
-                //is this working
+              
 
             } catch (MalformedURLException e) {
                 Log.e(TAG,"downloadXML: Invalid URL " + e.getMessage());
